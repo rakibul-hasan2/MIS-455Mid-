@@ -23,3 +23,13 @@ body {
 body.home {
     background-image: url('Image/pexels-riiyad-17023367.jpg')
 }
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    float: left;
+    background-color: rgba(195, 38, 137, 0.7); 
+    padding: 15px 0;
+    z-index: 1000;
+}
