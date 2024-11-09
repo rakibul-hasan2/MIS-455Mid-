@@ -1,0 +1,25 @@
+/* Name:Rakibul Hasan ID:2221102 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Home Page Background Image */
+body.home {
+    background-image: url('Image/pexels-riiyad-17023367.jpg')
+}
