@@ -33,3 +33,52 @@ header {
     padding: 15px 0;
     z-index: 1000;
 }
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: black;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgba(194, 77, 77, 0.7); 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+/* Home Page Content (Flexbox) */
+.home-container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 160px); 
+    padding-top: 90px; 
+    text-align: center;
+
+}
+h1 {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+      
+}
